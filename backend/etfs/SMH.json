@@ -1,0 +1,177 @@
+{
+    "net_assets": "21300000000",
+    "net_expense_ratio": "0.0035",
+    "portfolio_turnover": "0.15",
+    "dividend_yield": "0.0053",
+    "inception_date": "2011-12-20",
+    "leveraged": "NO",
+    "sectors": [
+        {
+            "sector": "INFORMATION TECHNOLOGY",
+            "weight": "0.795"
+        },
+        {
+            "sector": "COMMUNICATION SERVICES",
+            "weight": "0.054"
+        },
+        {
+            "sector": "CONSUMER DISCRETIONARY",
+            "weight": "0.00"
+        },
+        {
+            "sector": "HEALTHCARE",
+            "weight": "0.00"
+        },
+        {
+            "sector": "CONSUMER STAPLES",
+            "weight": "0.00"
+        },
+        {
+            "sector": "INDUSTRIALS",
+            "weight": "0.00"
+        },
+        {
+            "sector": "MATERIALS",
+            "weight": "0.00"
+        },
+        {
+            "sector": "UTILITIES",
+            "weight": "0.00"
+        },
+        {
+            "sector": "ENERGY",
+            "weight": "0.00"
+        },
+        {
+            "sector": "FINANCIALS",
+            "weight": "0.00"
+        }
+    ],
+    "holdings": [
+        {
+            "symbol": "NVDA",
+            "description": "NVIDIA CORP",
+            "weight": "0.1813"
+        },
+        {
+            "symbol": "TSM",
+            "description": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD ADR",
+            "weight": "0.1221"
+        },
+        {
+            "symbol": "AVGO",
+            "description": "BROADCOM INC",
+            "weight": "0.0877"
+        },
+        {
+            "symbol": "ASML",
+            "description": "ASML HOLDING NV ADR",
+            "weight": "0.054"
+        },
+        {
+            "symbol": "TXN",
+            "description": "TEXAS INSTRUMENTS INC",
+            "weight": "0.0498"
+        },
+        {
+            "symbol": "QCOM",
+            "description": "QUALCOMM INC",
+            "weight": "0.0473"
+        },
+        {
+            "symbol": "ADI",
+            "description": "ANALOG DEVICES INC",
+            "weight": "0.0459"
+        },
+        {
+            "symbol": "AMAT",
+            "description": "APPLIED MATERIALS INC",
+            "weight": "0.0438"
+        },
+        {
+            "symbol": "LRCX",
+            "description": "LAM RESEARCH CORP",
+            "weight": "0.0423"
+        },
+        {
+            "symbol": "AMD",
+            "description": "ADVANCED MICRO DEVICES INC",
+            "weight": "0.0421"
+        },
+        {
+            "symbol": "MU",
+            "description": "MICRON TECHNOLOGY INC",
+            "weight": "0.042"
+        },
+        {
+            "symbol": "KLAC",
+            "description": "KLA CORP",
+            "weight": "0.0402"
+        },
+        {
+            "symbol": "INTC",
+            "description": "INTEL CORP",
+            "weight": "0.0401"
+        },
+        {
+            "symbol": "SNPS",
+            "description": "SYNOPSYS INC",
+            "weight": "0.0298"
+        },
+        {
+            "symbol": "CDNS",
+            "description": "CADENCE DESIGN SYSTEMS INC",
+            "weight": "0.0281"
+        },
+        {
+            "symbol": "MRVL",
+            "description": "MARVELL TECHNOLOGY INC",
+            "weight": "0.028"
+        },
+        {
+            "symbol": "NXPI",
+            "description": "NXP SEMICONDUCTORS NV",
+            "weight": "0.0182"
+        },
+        {
+            "symbol": "MCHP",
+            "description": "MICROCHIP TECHNOLOGY INC",
+            "weight": "0.0131"
+        },
+        {
+            "symbol": "MPWR",
+            "description": "MONOLITHIC POWER SYSTEMS INC",
+            "weight": "0.0108"
+        },
+        {
+            "symbol": "STM",
+            "description": "STMICROELECTRONICS NV ADR",
+            "weight": "0.0082"
+        },
+        {
+            "symbol": "TER",
+            "description": "TERADYNE INC",
+            "weight": "0.0065"
+        },
+        {
+            "symbol": "ON",
+            "description": "ON SEMICONDUCTOR CORP",
+            "weight": "0.0063"
+        },
+        {
+            "symbol": "SWKS",
+            "description": "SKYWORKS SOLUTIONS INC",
+            "weight": "0.0044"
+        },
+        {
+            "symbol": "OLED",
+            "description": "UNIVERSAL DISPLAY CORP",
+            "weight": "0.003"
+        },
+        {
+            "symbol": "QRVO",
+            "description": "QORVO INC",
+            "weight": "0.0027"
+        }
+    ]
+}

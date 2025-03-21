@@ -1,0 +1,162 @@
+{
+    "net_assets": "33000000000",
+    "net_expense_ratio": "0.0008",
+    "portfolio_turnover": "0.19",
+    "dividend_yield": "0.0308",
+    "inception_date": "1998-12-16",
+    "leveraged": "NO",
+    "sectors": [
+        {
+            "sector": "ENERGY",
+            "weight": "0.989"
+        },
+        {
+            "sector": "INFORMATION TECHNOLOGY",
+            "weight": "0.00"
+        },
+        {
+            "sector": "COMMUNICATION SERVICES",
+            "weight": "0.00"
+        },
+        {
+            "sector": "CONSUMER DISCRETIONARY",
+            "weight": "0.00"
+        },
+        {
+            "sector": "HEALTHCARE",
+            "weight": "0.00"
+        },
+        {
+            "sector": "CONSUMER STAPLES",
+            "weight": "0.00"
+        },
+        {
+            "sector": "INDUSTRIALS",
+            "weight": "0.00"
+        },
+        {
+            "sector": "MATERIALS",
+            "weight": "0.00"
+        },
+        {
+            "sector": "UTILITIES",
+            "weight": "0.00"
+        },
+        {
+            "sector": "FINANCIALS",
+            "weight": "0.00"
+        }
+    ],
+    "holdings": [
+        {
+            "symbol": "XOM",
+            "description": "EXXON MOBIL CORP",
+            "weight": "0.2263"
+        },
+        {
+            "symbol": "CVX",
+            "description": "CHEVRON CORP",
+            "weight": "0.1577"
+        },
+        {
+            "symbol": "COP",
+            "description": "CONOCOPHILLIPS",
+            "weight": "0.0728"
+        },
+        {
+            "symbol": "WMB",
+            "description": "WILLIAMS COMPANIES INC",
+            "weight": "0.0473"
+        },
+        {
+            "symbol": "EOG",
+            "description": "EOG RESOURCES INC",
+            "weight": "0.0441"
+        },
+        {
+            "symbol": "OKE",
+            "description": "ONEOK INC",
+            "weight": "0.0421"
+        },
+        {
+            "symbol": "SLB",
+            "description": "SCHLUMBERGER LTD",
+            "weight": "0.0399"
+        },
+        {
+            "symbol": "KMI",
+            "description": "KINDER MORGAN INC CLASS P",
+            "weight": "0.0377"
+        },
+        {
+            "symbol": "PSX",
+            "description": "PHILLIPS 66",
+            "weight": "0.0365"
+        },
+        {
+            "symbol": "MPC",
+            "description": "MARATHON PETROLEUM CORP",
+            "weight": "0.0332"
+        },
+        {
+            "symbol": "BKR",
+            "description": "BAKER HUGHES CO CLASS A",
+            "weight": "0.0307"
+        },
+        {
+            "symbol": "TRGP",
+            "description": "TARGA RESOURCES CORP",
+            "weight": "0.03"
+        },
+        {
+            "symbol": "VLO",
+            "description": "VALERO ENERGY CORP",
+            "weight": "0.0292"
+        },
+        {
+            "symbol": "HES",
+            "description": "HESS CORP",
+            "weight": "0.0285"
+        },
+        {
+            "symbol": "OXY",
+            "description": "OCCIDENTAL PETROLEUM CORP",
+            "weight": "0.0227"
+        },
+        {
+            "symbol": "EQT",
+            "description": "EQT CORP",
+            "weight": "0.0216"
+        },
+        {
+            "symbol": "FANG",
+            "description": "DIAMONDBACK ENERGY INC",
+            "weight": "0.0196"
+        },
+        {
+            "symbol": "TPL",
+            "description": "TEXAS PACIFIC LAND CORP",
+            "weight": "0.0186"
+        },
+        {
+            "symbol": "DVN",
+            "description": "DEVON ENERGY CORP",
+            "weight": "0.0163"
+        },
+        {
+            "symbol": "HAL",
+            "description": "HALLIBURTON CO",
+            "weight": "0.0153"
+        },
+        {
+            "symbol": "CTRA",
+            "description": "COTERRA ENERGY INC ORDINARY SHARES",
+            "weight": "0.0141"
+        },
+        {
+            "symbol": "APA",
+            "description": "APA CORP",
+            "weight": "0.005"
+        }
+    ]
+}

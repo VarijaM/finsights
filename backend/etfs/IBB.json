@@ -1,0 +1,1277 @@
+{
+    "net_assets": "6300000000",
+    "net_expense_ratio": "0.0045",
+    "portfolio_turnover": "0.22",
+    "dividend_yield": "0.0025",
+    "inception_date": "2001-02-05",
+    "leveraged": "NO",
+    "sectors": [
+        {
+            "sector": "HEALTHCARE",
+            "weight": "0.908"
+        },
+        {
+            "sector": "INFORMATION TECHNOLOGY",
+            "weight": "0.00"
+        },
+        {
+            "sector": "COMMUNICATION SERVICES",
+            "weight": "0.00"
+        },
+        {
+            "sector": "CONSUMER DISCRETIONARY",
+            "weight": "0.00"
+        },
+        {
+            "sector": "CONSUMER STAPLES",
+            "weight": "0.00"
+        },
+        {
+            "sector": "INDUSTRIALS",
+            "weight": "0.00"
+        },
+        {
+            "sector": "MATERIALS",
+            "weight": "0.0"
+        },
+        {
+            "sector": "UTILITIES",
+            "weight": "0.00"
+        },
+        {
+            "sector": "ENERGY",
+            "weight": "0.00"
+        },
+        {
+            "sector": "FINANCIALS",
+            "weight": "0.00"
+        }
+    ],
+    "holdings": [
+        {
+            "symbol": "GILD",
+            "description": "GILEAD SCIENCES INC",
+            "weight": "0.1049"
+        },
+        {
+            "symbol": "AMGN",
+            "description": "AMGEN INC",
+            "weight": "0.0935"
+        },
+        {
+            "symbol": "VRTX",
+            "description": "VERTEX PHARMACEUTICALS INC",
+            "weight": "0.088"
+        },
+        {
+            "symbol": "REGN",
+            "description": "REGENERON PHARMACEUTICALS INC",
+            "weight": "0.0712"
+        },
+        {
+            "symbol": "IQV",
+            "description": "IQVIA HOLDINGS INC",
+            "weight": "0.0329"
+        },
+        {
+            "symbol": "ALNY",
+            "description": "ALNYLAM PHARMACEUTICALS INC",
+            "weight": "0.0309"
+        },
+        {
+            "symbol": "ARGX",
+            "description": "ARGENX SE ADR",
+            "weight": "0.029"
+        },
+        {
+            "symbol": "MTD",
+            "description": "METTLER-TOLEDO INTERNATIONAL INC",
+            "weight": "0.0257"
+        },
+        {
+            "symbol": "WAT",
+            "description": "WATERS CORP",
+            "weight": "0.0217"
+        },
+        {
+            "symbol": "BIIB",
+            "description": "BIOGEN INC",
+            "weight": "0.0205"
+        },
+        {
+            "symbol": "BNTX",
+            "description": "BIONTECH SE ADR",
+            "weight": "0.0204"
+        },
+        {
+            "symbol": "NTRA",
+            "description": "NATERA INC",
+            "weight": "0.0176"
+        },
+        {
+            "symbol": "ONC",
+            "description": "BEIGENE LTD ADR",
+            "weight": "0.0158"
+        },
+        {
+            "symbol": "UTHR",
+            "description": "UNITED THERAPEUTICS CORP",
+            "weight": "0.0135"
+        },
+        {
+            "symbol": "INSM",
+            "description": "INSMED INC",
+            "weight": "0.0134"
+        },
+        {
+            "symbol": "ILMN",
+            "description": "ILLUMINA INC",
+            "weight": "0.0133"
+        },
+        {
+            "symbol": "BMRN",
+            "description": "BIOMARIN PHARMACEUTICAL INC",
+            "weight": "0.0132"
+        },
+        {
+            "symbol": "INCY",
+            "description": "INCYTE CORP",
+            "weight": "0.0131"
+        },
+        {
+            "symbol": "ITCI",
+            "description": "INTRA-CELLULAR THERAPIES INC",
+            "weight": "0.0129"
+        },
+        {
+            "symbol": "GMAB",
+            "description": "GENMAB AS ADR",
+            "weight": "0.0121"
+        },
+        {
+            "symbol": "NBIX",
+            "description": "NEUROCRINE BIOSCIENCES INC",
+            "weight": "0.0111"
+        },
+        {
+            "symbol": "EXEL",
+            "description": "EXELIXIS INC",
+            "weight": "0.0106"
+        },
+        {
+            "symbol": "MRNA",
+            "description": "MODERNA INC",
+            "weight": "0.0104"
+        },
+        {
+            "symbol": "TECH",
+            "description": "BIO-TECHNE CORP",
+            "weight": "0.0094"
+        },
+        {
+            "symbol": "SRPT",
+            "description": "SAREPTA THERAPEUTICS INC",
+            "weight": "0.0091"
+        },
+        {
+            "symbol": "PCVX",
+            "description": "VAXCYTE INC ORDINARY SHARES",
+            "weight": "0.0084"
+        },
+        {
+            "symbol": "CRL",
+            "description": "n/a",
+            "weight": "0.0083"
+        },
+        {
+            "symbol": "MEDP",
+            "description": "MEDPACE HOLDINGS INC",
+            "weight": "0.0082"
+        },
+        {
+            "symbol": "RGEN",
+            "description": "REPLIGEN CORP",
+            "weight": "0.008"
+        },
+        {
+            "symbol": "HALO",
+            "description": "HALOZYME THERAPEUTICS INC",
+            "weight": "0.0073"
+        },
+        {
+            "symbol": "ASND",
+            "description": "ASCENDIS PHARMA AS ADR",
+            "weight": "0.0071"
+        },
+        {
+            "symbol": "MDGL",
+            "description": "MADRIGAL PHARMACEUTICALS INC",
+            "weight": "0.0059"
+        },
+        {
+            "symbol": "ALKS",
+            "description": "ALKERMES PLC",
+            "weight": "0.0056"
+        },
+        {
+            "symbol": "BPMC",
+            "description": "BLUEPRINT MEDICINES CORP",
+            "weight": "0.0055"
+        },
+        {
+            "symbol": "RVMD",
+            "description": "REVOLUTION MEDICINES INC ORDINARY SHARES",
+            "weight": "0.0053"
+        },
+        {
+            "symbol": "LEGN",
+            "description": "LEGEND BIOTECH CORP ADR",
+            "weight": "0.0049"
+        },
+        {
+            "symbol": "BBIO",
+            "description": "BRIDGEBIO PHARMA INC",
+            "weight": "0.0049"
+        },
+        {
+            "symbol": "CYTK",
+            "description": "CYTOKINETICS INC",
+            "weight": "0.0049"
+        },
+        {
+            "symbol": "AXSM",
+            "description": "AXSOME THERAPEUTICS INC",
+            "weight": "0.0049"
+        },
+        {
+            "symbol": "BRKR",
+            "description": "BRUKER CORP",
+            "weight": "0.0048"
+        },
+        {
+            "symbol": "IONS",
+            "description": "IONIS PHARMACEUTICALS INC",
+            "weight": "0.0048"
+        },
+        {
+            "symbol": "ROIV",
+            "description": "ROIVANT SCIENCES LTD ORDINARY SHARES",
+            "weight": "0.0045"
+        },
+        {
+            "symbol": "KRYS",
+            "description": "KRYSTAL BIOTECH INC",
+            "weight": "0.0042"
+        },
+        {
+            "symbol": "ADMA",
+            "description": "ADMA BIOLOGICS INC",
+            "weight": "0.0039"
+        },
+        {
+            "symbol": "PTCT",
+            "description": "PTC THERAPEUTICS INC",
+            "weight": "0.0038"
+        },
+        {
+            "symbol": "VRNA",
+            "description": "VERONA PHARMA PLC ADR",
+            "weight": "0.0036"
+        },
+        {
+            "symbol": "CRSP",
+            "description": "CRISPR THERAPEUTICS AG",
+            "weight": "0.0035"
+        },
+        {
+            "symbol": "RARE",
+            "description": "ULTRAGENYX PHARMACEUTICAL INC",
+            "weight": "0.0034"
+        },
+        {
+            "symbol": "SWTX",
+            "description": "n/a",
+            "weight": "0.0034"
+        },
+        {
+            "symbol": "RNA",
+            "description": "AVIDITY BIOSCIENCES INC ORDINARY SHARES",
+            "weight": "0.0031"
+        },
+        {
+            "symbol": "NUVL",
+            "description": "NUVALENT INC CLASS A",
+            "weight": "0.003"
+        },
+        {
+            "symbol": "ACAD",
+            "description": "ACADIA PHARMACEUTICALS INC",
+            "weight": "0.003"
+        },
+        {
+            "symbol": "CRNX",
+            "description": "CRINETICS PHARMACEUTICALS INC",
+            "weight": "0.0029"
+        },
+        {
+            "symbol": "ZLAB",
+            "description": "ZAI LAB LTD ADR REPR 1 SHS",
+            "weight": "0.0029"
+        },
+        {
+            "symbol": "RYTM",
+            "description": "RHYTHM PHARMACEUTICALS INC",
+            "weight": "0.0028"
+        },
+        {
+            "symbol": "BHVN",
+            "description": "BIOHAVEN LTD",
+            "weight": "0.0028"
+        },
+        {
+            "symbol": "ACLX",
+            "description": "ARCELLX INC",
+            "weight": "0.0027"
+        },
+        {
+            "symbol": "AKRO",
+            "description": "AKERO THERAPEUTICS INC",
+            "weight": "0.0026"
+        },
+        {
+            "symbol": "TEM",
+            "description": "TEMPUS AI INC CLASS A COMMON STOCK",
+            "weight": "0.0026"
+        },
+        {
+            "symbol": "XENE",
+            "description": "XENON PHARMACEUTICALS INC",
+            "weight": "0.0026"
+        },
+        {
+            "symbol": "FOLD",
+            "description": "AMICUS THERAPEUTICS INC",
+            "weight": "0.0026"
+        },
+        {
+            "symbol": "MRUS",
+            "description": "MERUS NV",
+            "weight": "0.0026"
+        },
+        {
+            "symbol": "VCYT",
+            "description": "VERACYTE INC",
+            "weight": "0.0026"
+        },
+        {
+            "symbol": "VCEL",
+            "description": "VERICEL CORP",
+            "weight": "0.0025"
+        },
+        {
+            "symbol": "SRRK",
+            "description": "SCHOLAR ROCK HOLDING CORP",
+            "weight": "0.0025"
+        },
+        {
+            "symbol": "APLS",
+            "description": "APELLIS PHARMACEUTICALS INC",
+            "weight": "0.0025"
+        },
+        {
+            "symbol": "PTGX",
+            "description": "PROTAGONIST THERAPEUTICS INC",
+            "weight": "0.0022"
+        },
+        {
+            "symbol": "TWST",
+            "description": "TWIST BIOSCIENCE CORP",
+            "weight": "0.0022"
+        },
+        {
+            "symbol": "ARWR",
+            "description": "ARROWHEAD PHARMACEUTICALS INC",
+            "weight": "0.002"
+        },
+        {
+            "symbol": "DNLI",
+            "description": "DENALI THERAPEUTICS INC",
+            "weight": "0.002"
+        },
+        {
+            "symbol": "RXRX",
+            "description": "RECURSION PHARMACEUTICALS INC CLASS A",
+            "weight": "0.002"
+        },
+        {
+            "symbol": "SMMT",
+            "description": "SUMMIT THERAPEUTICS INC ORDINARY SHARES",
+            "weight": "0.002"
+        },
+        {
+            "symbol": "BEAM",
+            "description": "BEAM THERAPEUTICS INC",
+            "weight": "0.0019"
+        },
+        {
+            "symbol": "NVCR",
+            "description": "NOVOCURE LTD",
+            "weight": "0.0018"
+        },
+        {
+            "symbol": "AGIO",
+            "description": "AGIOS PHARMACEUTICALS INC",
+            "weight": "0.0018"
+        },
+        {
+            "symbol": "DVAX",
+            "description": "DYNAVAX TECHNOLOGIES CORP",
+            "weight": "0.0018"
+        },
+        {
+            "symbol": "TVTX",
+            "description": "TRAVERE THERAPEUTICS INC ORDINARY SHARES",
+            "weight": "0.0017"
+        },
+        {
+            "symbol": "GRFS",
+            "description": "GRIFOLS SA ADR",
+            "weight": "0.0017"
+        },
+        {
+            "symbol": "KYMR",
+            "description": "KYMERA THERAPEUTICS INC ORDINARY SHARES",
+            "weight": "0.0017"
+        },
+        {
+            "symbol": "MIRM",
+            "description": "MIRUM PHARMACEUTICALS INC",
+            "weight": "0.0017"
+        },
+        {
+            "symbol": "BCRX",
+            "description": "BIOCRYST PHARMACEUTICALS INC",
+            "weight": "0.0016"
+        },
+        {
+            "symbol": "EWTX",
+            "description": "EDGEWISE THERAPEUTICS INC",
+            "weight": "0.0015"
+        },
+        {
+            "symbol": "MESO",
+            "description": "MESOBLAST LTD ADR",
+            "weight": "0.0015"
+        },
+        {
+            "symbol": "JANX",
+            "description": "JANUX THERAPEUTICS INC ORDINARY SHARES",
+            "weight": "0.0014"
+        },
+        {
+            "symbol": "VERA",
+            "description": "VERA THERAPEUTICS INC CLASS A",
+            "weight": "0.0014"
+        },
+        {
+            "symbol": "MNKD",
+            "description": "MANNKIND CORP",
+            "weight": "0.0014"
+        },
+        {
+            "symbol": "ARQT",
+            "description": "n/a",
+            "weight": "0.0014"
+        },
+        {
+            "symbol": "IDYA",
+            "description": "IDEAYA BIOSCIENCES INC",
+            "weight": "0.0014"
+        },
+        {
+            "symbol": "TARS",
+            "description": "n/a",
+            "weight": "0.0014"
+        },
+        {
+            "symbol": "WVE",
+            "description": "WAVE LIFE SCIENCES LTD",
+            "weight": "0.0013"
+        },
+        {
+            "symbol": "IMVT",
+            "description": "IMMUNOVANT INC",
+            "weight": "0.0013"
+        },
+        {
+            "symbol": "NVAX",
+            "description": "NOVAVAX INC",
+            "weight": "0.0012"
+        },
+        {
+            "symbol": "SNDX",
+            "description": "SYNDAX PHARMACEUTICALS INC",
+            "weight": "0.0012"
+        },
+        {
+            "symbol": "GRAL",
+            "description": "GRAIL INC",
+            "weight": "0.0012"
+        },
+        {
+            "symbol": "ETNB",
+            "description": "89BIO INC ORDINARY SHARES",
+            "weight": "0.0012"
+        },
+        {
+            "symbol": "ALVO",
+            "description": "ALVOTECH",
+            "weight": "0.0012"
+        },
+        {
+            "symbol": "CGON",
+            "description": "CG ONCOLOGY INC",
+            "weight": "0.0012"
+        },
+        {
+            "symbol": "CNTA",
+            "description": "CENTESSA PHARMACEUTICALS PLC ADR",
+            "weight": "0.0011"
+        },
+        {
+            "symbol": "IMCR",
+            "description": "IMMUNOCORE HOLDINGS PLC ADR",
+            "weight": "0.0011"
+        },
+        {
+            "symbol": "ADPT",
+            "description": "ADAPTIVE BIOTECHNOLOGIES CORP",
+            "weight": "0.0011"
+        },
+        {
+            "symbol": "APGE",
+            "description": "APOGEE THERAPEUTICS INC",
+            "weight": "0.0011"
+        },
+        {
+            "symbol": "NAMS",
+            "description": "NEWAMSTERDAM PHARMA CO NV",
+            "weight": "0.0011"
+        },
+        {
+            "symbol": "AUPH",
+            "description": "AURINIA PHARMACEUTICALS INC",
+            "weight": "0.001"
+        },
+        {
+            "symbol": "ARVN",
+            "description": "ARVINAS INC",
+            "weight": "0.001"
+        },
+        {
+            "symbol": "GLPG",
+            "description": "GALAPAGOS NV ADR",
+            "weight": "0.001"
+        },
+        {
+            "symbol": "TXG",
+            "description": "n/a",
+            "weight": "0.001"
+        },
+        {
+            "symbol": "NRIX",
+            "description": "NURIX THERAPEUTICS INC ORDINARY SHARES",
+            "weight": "0.001"
+        },
+        {
+            "symbol": "IOVA",
+            "description": "IOVANCE BIOTHERAPEUTICS INC",
+            "weight": "0.001"
+        },
+        {
+            "symbol": "GPCR",
+            "description": "STRUCTURE THERAPEUTICS INC ADR",
+            "weight": "0.001"
+        },
+        {
+            "symbol": "CDNA",
+            "description": "CAREDX INC",
+            "weight": "0.001"
+        },
+        {
+            "symbol": "IRON",
+            "description": "DISC MEDICINE INC ORDINARY SHARES",
+            "weight": "0.001"
+        },
+        {
+            "symbol": "FTRE",
+            "description": "FORTREA HOLDINGS INC",
+            "weight": "0.001"
+        },
+        {
+            "symbol": "SYRE",
+            "description": "SPYRE THERAPEUTICS INC",
+            "weight": "0.0009"
+        },
+        {
+            "symbol": "MYGN",
+            "description": "MYRIAD GENETICS INC",
+            "weight": "0.0009"
+        },
+        {
+            "symbol": "NTLA",
+            "description": "INTELLIA THERAPEUTICS INC",
+            "weight": "0.0009"
+        },
+        {
+            "symbol": "STVN",
+            "description": "STEVANATO GROUP SPA",
+            "weight": "0.0009"
+        },
+        {
+            "symbol": "DYN",
+            "description": "DYNE THERAPEUTICS INC ORDINARY SHARES",
+            "weight": "0.0009"
+        },
+        {
+            "symbol": "GERN",
+            "description": "GERON CORP",
+            "weight": "0.0009"
+        },
+        {
+            "symbol": "XNCR",
+            "description": "XENCOR INC",
+            "weight": "0.0009"
+        },
+        {
+            "symbol": "EVO",
+            "description": "EVOTEC SE ADR",
+            "weight": "0.0008"
+        },
+        {
+            "symbol": "ZYME",
+            "description": "ZYMEWORKS INC REGISTERED SHS",
+            "weight": "0.0008"
+        },
+        {
+            "symbol": "RCKT",
+            "description": "ROCKET PHARMACEUTICALS INC",
+            "weight": "0.0008"
+        },
+        {
+            "symbol": "PRTA",
+            "description": "PROTHENA CORP PLC",
+            "weight": "0.0007"
+        },
+        {
+            "symbol": "VIR",
+            "description": "VIR BIOTECHNOLOGY INC",
+            "weight": "0.0007"
+        },
+        {
+            "symbol": "AVXL",
+            "description": "ANAVEX LIFE SCIENCES CORP",
+            "weight": "0.0007"
+        },
+        {
+            "symbol": "REPL",
+            "description": "REPLIMUNE GROUP INC",
+            "weight": "0.0007"
+        },
+        {
+            "symbol": "DAWN",
+            "description": "DAY ONE BIOPHARMACEUTICALS INC",
+            "weight": "0.0006"
+        },
+        {
+            "symbol": "ELVN",
+            "description": "ENLIVEN THERAPEUTICS INC",
+            "weight": "0.0006"
+        },
+        {
+            "symbol": "CSTL",
+            "description": "CASTLE BIOSCIENCES INC",
+            "weight": "0.0006"
+        },
+        {
+            "symbol": "COGT",
+            "description": "COGENT BIOSCIENCES INC",
+            "weight": "0.0006"
+        },
+        {
+            "symbol": "CRMD",
+            "description": "CORMEDIX INC",
+            "weight": "0.0006"
+        },
+        {
+            "symbol": "OPK",
+            "description": "OPKO HEALTH INC",
+            "weight": "0.0006"
+        },
+        {
+            "symbol": "PRAX",
+            "description": "n/a",
+            "weight": "0.0006"
+        },
+        {
+            "symbol": "RCUS",
+            "description": "ARCUS BIOSCIENCES INC",
+            "weight": "0.0006"
+        },
+        {
+            "symbol": "KURA",
+            "description": "KURA ONCOLOGY INC",
+            "weight": "0.0005"
+        },
+        {
+            "symbol": "QURE",
+            "description": "UNIQURE NV",
+            "weight": "0.0005"
+        },
+        {
+            "symbol": "ABCL",
+            "description": "ABCELLERA BIOLOGICS INC ORDINARY SHARES",
+            "weight": "0.0005"
+        },
+        {
+            "symbol": "CTKB",
+            "description": "CYTEK BIOSCIENCES INC",
+            "weight": "0.0005"
+        },
+        {
+            "symbol": "SPRY",
+            "description": "ARS PHARMACEUTICALS INC",
+            "weight": "0.0005"
+        },
+        {
+            "symbol": "ABUS",
+            "description": "ARBUTUS BIOPHARMA CORP",
+            "weight": "0.0005"
+        },
+        {
+            "symbol": "LENZ",
+            "description": "LENZ THERAPEUTICS INC",
+            "weight": "0.0005"
+        },
+        {
+            "symbol": "KALV",
+            "description": "KALVISTA PHARMACEUTICALS INC",
+            "weight": "0.0004"
+        },
+        {
+            "symbol": "BCYC",
+            "description": "BICYCLE THERAPEUTICS PLC ADR",
+            "weight": "0.0004"
+        },
+        {
+            "symbol": "ANAB",
+            "description": "ANAPTYSBIO INC",
+            "weight": "0.0004"
+        },
+        {
+            "symbol": "ARCT",
+            "description": "ARCTURUS THERAPEUTICS HOLDINGS INC",
+            "weight": "0.0004"
+        },
+        {
+            "symbol": "NUVB",
+            "description": "n/a",
+            "weight": "0.0004"
+        },
+        {
+            "symbol": "ZVRA",
+            "description": "ZEVRA THERAPEUTICS INC",
+            "weight": "0.0004"
+        },
+        {
+            "symbol": "VERV",
+            "description": "VERVE THERAPEUTICS INC",
+            "weight": "0.0004"
+        },
+        {
+            "symbol": "LAB",
+            "description": "STANDARD BIOTOOLS INC",
+            "weight": "0.0004"
+        },
+        {
+            "symbol": "TBPH",
+            "description": "THERAVANCE BIOPHARMA INC",
+            "weight": "0.0004"
+        },
+        {
+            "symbol": "RLAY",
+            "description": "RELAY THERAPEUTICS INC ORDINARY SHARES",
+            "weight": "0.0004"
+        },
+        {
+            "symbol": "RIGL",
+            "description": "RIGEL PHARMACEUTICALS INC",
+            "weight": "0.0004"
+        },
+        {
+            "symbol": "SAGE",
+            "description": "SAGE THERAPEUTICS INC",
+            "weight": "0.0004"
+        },
+        {
+            "symbol": "PACB",
+            "description": "PACIFIC BIOSCIENCES OF CALIFORNIA INC",
+            "weight": "0.0004"
+        },
+        {
+            "symbol": "ALT",
+            "description": "ALTIMMUNE INC",
+            "weight": "0.0004"
+        },
+        {
+            "symbol": "AVBP",
+            "description": "ARRIVENT BIOPHARMA INC",
+            "weight": "0.0004"
+        },
+        {
+            "symbol": "SANA",
+            "description": "SANA BIOTECHNOLOGY INC ORDINARY SHARES",
+            "weight": "0.0003"
+        },
+        {
+            "symbol": "RGNX",
+            "description": "REGENXBIO INC",
+            "weight": "0.0003"
+        },
+        {
+            "symbol": "VNDA",
+            "description": "VANDA PHARMACEUTICALS INC",
+            "weight": "0.0003"
+        },
+        {
+            "symbol": "ORKA",
+            "description": "ORUKA THERAPEUTICS INC",
+            "weight": "0.0003"
+        },
+        {
+            "symbol": "ATXS",
+            "description": "ASTRIA THERAPEUTICS INC",
+            "weight": "0.0003"
+        },
+        {
+            "symbol": "DNA",
+            "description": "GINKGO BIOWORKS HOLDINGS INC",
+            "weight": "0.0003"
+        },
+        {
+            "symbol": "EBS",
+            "description": "EMERGENT BIOSOLUTIONS INC",
+            "weight": "0.0003"
+        },
+        {
+            "symbol": "CVAC",
+            "description": "CUREVAC NV ORDINARY SHARES",
+            "weight": "0.0003"
+        },
+        {
+            "symbol": "CMPS",
+            "description": "COMPASS PATHWAYS PLC ADR",
+            "weight": "0.0003"
+        },
+        {
+            "symbol": "CGEM",
+            "description": "CULLINAN THERAPEUTICS INC",
+            "weight": "0.0003"
+        },
+        {
+            "symbol": "HUMA",
+            "description": "HUMACYTE INC",
+            "weight": "0.0003"
+        },
+        {
+            "symbol": "FLGT",
+            "description": "FULGENT GENETICS INC",
+            "weight": "0.0003"
+        },
+        {
+            "symbol": "AURA",
+            "description": "AURA BIOSCIENCES INC",
+            "weight": "0.0003"
+        },
+        {
+            "symbol": "ABSI",
+            "description": "ABSCI CORP",
+            "weight": "0.0003"
+        },
+        {
+            "symbol": "ALLO",
+            "description": "ALLOGENE THERAPEUTICS INC",
+            "weight": "0.0003"
+        },
+        {
+            "symbol": "AUTL",
+            "description": "AUTOLUS THERAPEUTICS PLC ADR",
+            "weight": "0.0003"
+        },
+        {
+            "symbol": "TYRA",
+            "description": "TYRA BIOSCIENCES INC",
+            "weight": "0.0003"
+        },
+        {
+            "symbol": "SLDB",
+            "description": "SOLID BIOSCIENCES INC",
+            "weight": "0.0003"
+        },
+        {
+            "symbol": "NGNE",
+            "description": "NEUROGENE INC",
+            "weight": "0.0003"
+        },
+        {
+            "symbol": "ORIC",
+            "description": "ORIC PHARMACEUTICALS INC",
+            "weight": "0.0003"
+        },
+        {
+            "symbol": "MRVI",
+            "description": "n/a",
+            "weight": "0.0003"
+        },
+        {
+            "symbol": "GLUE",
+            "description": "MONTE ROSA THERAPEUTICS INC",
+            "weight": "0.0003"
+        },
+        {
+            "symbol": "QTRX",
+            "description": "QUANTERIX CORP",
+            "weight": "0.0003"
+        },
+        {
+            "symbol": "MGTX",
+            "description": "MEIRAGTX HOLDINGS PLC",
+            "weight": "0.0003"
+        },
+        {
+            "symbol": "MXCT",
+            "description": "MAXCYTE INC",
+            "weight": "0.0003"
+        },
+        {
+            "symbol": "KROS",
+            "description": "KEROS THERAPEUTICS INC",
+            "weight": "0.0003"
+        },
+        {
+            "symbol": "PGEN",
+            "description": "PRECIGEN INC",
+            "weight": "0.0003"
+        },
+        {
+            "symbol": "STOK",
+            "description": "STOKE THERAPEUTICS INC",
+            "weight": "0.0003"
+        },
+        {
+            "symbol": "ACIU",
+            "description": "AC IMMUNE SA",
+            "weight": "0.0002"
+        },
+        {
+            "symbol": "SLRN",
+            "description": "ACELYRIN INC",
+            "weight": "0.0002"
+        },
+        {
+            "symbol": "ERAS",
+            "description": "ERASCA INC",
+            "weight": "0.0002"
+        },
+        {
+            "symbol": "TRDA",
+            "description": "ENTRADA THERAPEUTICS INC",
+            "weight": "0.0002"
+        },
+        {
+            "symbol": "IBRX",
+            "description": "IMMUNITYBIO INC ORDINARY SHARES",
+            "weight": "0.0002"
+        },
+        {
+            "symbol": "IMMP",
+            "description": "IMMUTEP LTD ADR",
+            "weight": "0.0002"
+        },
+        {
+            "symbol": "MLYS",
+            "description": "MINERALYS THERAPEUTICS INC",
+            "weight": "0.0002"
+        },
+        {
+            "symbol": "TRVI",
+            "description": "TREVI THERAPEUTICS INC",
+            "weight": "0.0002"
+        },
+        {
+            "symbol": "VYGR",
+            "description": "VOYAGER THERAPEUTICS INC",
+            "weight": "0.0002"
+        },
+        {
+            "symbol": "TERN",
+            "description": "n/a",
+            "weight": "0.0002"
+        },
+        {
+            "symbol": "TECX",
+            "description": "TECTONIC THERAPEUTIC INC",
+            "weight": "0.0002"
+        },
+        {
+            "symbol": "SVRA",
+            "description": "SAVARA INC",
+            "weight": "0.0002"
+        },
+        {
+            "symbol": "RAPP",
+            "description": "RAPPORT THERAPEUTICS INC",
+            "weight": "0.0002"
+        },
+        {
+            "symbol": "TSHA",
+            "description": "n/a",
+            "weight": "0.0002"
+        },
+        {
+            "symbol": "YMAB",
+            "description": "Y-MABS THERAPEUTICS INC",
+            "weight": "0.0002"
+        },
+        {
+            "symbol": "TRML",
+            "description": "TOURMALINE BIO INC",
+            "weight": "0.0002"
+        },
+        {
+            "symbol": "OLMA",
+            "description": "n/a",
+            "weight": "0.0002"
+        },
+        {
+            "symbol": "CRVS",
+            "description": "CORVUS PHARMACEUTICALS INC",
+            "weight": "0.0002"
+        },
+        {
+            "symbol": "IRWD",
+            "description": "IRONWOOD PHARMACEUTICALS INC CLASS A",
+            "weight": "0.0002"
+        },
+        {
+            "symbol": "ITOS",
+            "description": "ITEOS THERAPEUTICS INC ORDINARY SHARES",
+            "weight": "0.0002"
+        },
+        {
+            "symbol": "PHAT",
+            "description": "n/a",
+            "weight": "0.0002"
+        },
+        {
+            "symbol": "PSNL",
+            "description": "PERSONALIS INC",
+            "weight": "0.0002"
+        },
+        {
+            "symbol": "CDXS",
+            "description": "CODEXIS INC",
+            "weight": "0.0002"
+        },
+        {
+            "symbol": "DSGN",
+            "description": "DESIGN THERAPEUTICS INC",
+            "weight": "0.0002"
+        },
+        {
+            "symbol": "RNAC",
+            "description": "CARTESIAN THERAPEUTICS INC",
+            "weight": "0.0002"
+        },
+        {
+            "symbol": "FDMT",
+            "description": "n/a",
+            "weight": "0.0002"
+        },
+        {
+            "symbol": "AVIR",
+            "description": "ATEA PHARMACEUTICALS INC ORDINARY SHARES",
+            "weight": "0.0002"
+        },
+        {
+            "symbol": "ANNX",
+            "description": "ANNEXON INC ORDINARY SHARES",
+            "weight": "0.0002"
+        },
+        {
+            "symbol": "AMLX",
+            "description": "AMYLYX PHARMACEUTICALS INC",
+            "weight": "0.0002"
+        },
+        {
+            "symbol": "TSVT",
+            "description": "2SEVENTY BIO INC ORDINARY SHARES",
+            "weight": "0.0001"
+        },
+        {
+            "symbol": "TKNO",
+            "description": "ALPHA TEKNOVA INC",
+            "weight": "0.0001"
+        },
+        {
+            "symbol": "ALEC",
+            "description": "ALECTOR INC",
+            "weight": "0.0001"
+        },
+        {
+            "symbol": "ALMS",
+            "description": "ALUMIS INC",
+            "weight": "0.0001"
+        },
+        {
+            "symbol": "ADCT",
+            "description": "ADC THERAPEUTICS SA",
+            "weight": "0.0001"
+        },
+        {
+            "symbol": "ACRV",
+            "description": "ACRIVON THERAPEUTICS INC",
+            "weight": "0.0001"
+        },
+        {
+            "symbol": "ARTV",
+            "description": "ARTIVA BIOTHERAPEUTICS INC",
+            "weight": "0.0001"
+        },
+        {
+            "symbol": "BMEA",
+            "description": "BIOMEA FUSION INC",
+            "weight": "0.0001"
+        },
+        {
+            "symbol": "EDIT",
+            "description": "EDITAS MEDICINE INC",
+            "weight": "0.0001"
+        },
+        {
+            "symbol": "NMRA",
+            "description": "NEUMORA THERAPEUTICS INC",
+            "weight": "0.0001"
+        },
+        {
+            "symbol": "LYEL",
+            "description": "LYELL IMMUNOPHARMA INC ORDINARY SHARES",
+            "weight": "0.0001"
+        },
+        {
+            "symbol": "SLN",
+            "description": "SILENCE THERAPEUTICS PLC ADR",
+            "weight": "0.0001"
+        },
+        {
+            "symbol": "INBX",
+            "description": "INHIBRX BIOSCIENCES INC",
+            "weight": "0.0001"
+        },
+        {
+            "symbol": "ENTA",
+            "description": "ENANTA PHARMACEUTICALS INC",
+            "weight": "0.0001"
+        },
+        {
+            "symbol": "FHTX",
+            "description": "FOGHORN THERAPEUTICS INC ORDINARY SHARES",
+            "weight": "0.0001"
+        },
+        {
+            "symbol": "CYBN",
+            "description": "CYBIN INC ORDINARY SHARES",
+            "weight": "0.0001"
+        },
+        {
+            "symbol": "FATE",
+            "description": "FATE THERAPEUTICS INC",
+            "weight": "0.0001"
+        },
+        {
+            "symbol": "CLYM",
+            "description": "CLIMB BIO INC",
+            "weight": "0.0001"
+        },
+        {
+            "symbol": "CRGX",
+            "description": "CARGO THERAPEUTICS INC",
+            "weight": "0.0001"
+        },
+        {
+            "symbol": "CCCC",
+            "description": "C4 THERAPEUTICS INC ORDINARY SHARES",
+            "weight": "0.0001"
+        },
+        {
+            "symbol": "LRMR",
+            "description": "LARIMAR THERAPEUTICS INC",
+            "weight": "0.0001"
+        },
+        {
+            "symbol": "MGNX",
+            "description": "MACROGENICS INC",
+            "weight": "0.0001"
+        },
+        {
+            "symbol": "PLRX",
+            "description": "PLIANT THERAPEUTICS INC ORDINARY SHARES",
+            "weight": "0.0001"
+        },
+        {
+            "symbol": "NKTX",
+            "description": "NKARTA INC ORDINARY SHARES",
+            "weight": "0.0001"
+        },
+        {
+            "symbol": "LXEO",
+            "description": "LEXEO THERAPEUTICS INC",
+            "weight": "0.0001"
+        },
+        {
+            "symbol": "TCRX",
+            "description": "TSCAN THERAPEUTICS INC",
+            "weight": "0.0001"
+        },
+        {
+            "symbol": "THRD",
+            "description": "THIRD HARMONIC BIO INC",
+            "weight": "0.0001"
+        },
+        {
+            "symbol": "CATX",
+            "description": "PERSPECTIVE THERAPEUTICS INC",
+            "weight": "0.0001"
+        },
+        {
+            "symbol": "STRO",
+            "description": "SUTRO BIOPHARMA INC",
+            "weight": "0.0001"
+        },
+        {
+            "symbol": "TNGX",
+            "description": "TANGO THERAPEUTICS INC",
+            "weight": "0.0001"
+        },
+        {
+            "symbol": "PEPG",
+            "description": "PEPGEN INC",
+            "weight": "0.0001"
+        },
+        {
+            "symbol": "PRME",
+            "description": "PRIME MEDICINE INC",
+            "weight": "0.0001"
+        }
+    ]
+}

@@ -1,0 +1,152 @@
+{
+    "net_assets": "22400000000",
+    "net_expense_ratio": "0.0008",
+    "portfolio_turnover": "0.26",
+    "dividend_yield": "0.0081",
+    "inception_date": "1998-12-16",
+    "leveraged": "NO",
+    "sectors": [
+        {
+            "sector": "CONSUMER DISCRETIONARY",
+            "weight": "0.989"
+        },
+        {
+            "sector": "FINANCIALS",
+            "weight": "0.01"
+        },
+        {
+            "sector": "INFORMATION TECHNOLOGY",
+            "weight": "0.00"
+        },
+        {
+            "sector": "COMMUNICATION SERVICES",
+            "weight": "0.00"
+        },
+        {
+            "sector": "HEALTHCARE",
+            "weight": "0.00"
+        },
+        {
+            "sector": "CONSUMER STAPLES",
+            "weight": "0.00"
+        },
+        {
+            "sector": "INDUSTRIALS",
+            "weight": "0.00"
+        },
+        {
+            "sector": "MATERIALS",
+            "weight": "0.00"
+        },
+        {
+            "sector": "UTILITIES",
+            "weight": "0.00"
+        },
+        {
+            "sector": "ENERGY",
+            "weight": "0.00"
+        }
+    ],
+    "holdings": [
+        {
+            "symbol": "AMZN",
+            "description": "AMAZON.COM INC",
+            "weight": "0.2076"
+        },
+        {
+            "symbol": "TSLA",
+            "description": "TESLA INC",
+            "weight": "0.1312"
+        },
+        {
+            "symbol": "HD",
+            "description": "THE HOME DEPOT INC",
+            "weight": "0.0655"
+        },
+        {
+            "symbol": "MCD",
+            "description": "MCDONALD'S CORP",
+            "weight": "0.0529"
+        },
+        {
+            "symbol": "BKNG",
+            "description": "BOOKING HOLDINGS INC",
+            "weight": "0.0474"
+        },
+        {
+            "symbol": "TJX",
+            "description": "TJX COMPANIES INC",
+            "weight": "0.0409"
+        },
+        {
+            "symbol": "LOW",
+            "description": "LOWE'S COMPANIES INC",
+            "weight": "0.0405"
+        },
+        {
+            "symbol": "SBUX",
+            "description": "STARBUCKS CORP",
+            "weight": "0.0378"
+        },
+        {
+            "symbol": "NKE",
+            "description": "NIKE INC CLASS B",
+            "weight": "0.0274"
+        },
+        {
+            "symbol": "ORLY",
+            "description": "O'REILLY AUTOMOTIVE INC",
+            "weight": "0.0233"
+        },
+        {
+            "symbol": "CMG",
+            "description": "CHIPOTLE MEXICAN GRILL INC",
+            "weight": "0.0215"
+        },
+        {
+            "symbol": "HLT",
+            "description": "HILTON WORLDWIDE HOLDINGS INC",
+            "weight": "0.0188"
+        },
+        {
+            "symbol": "MAR",
+            "description": "MARRIOTT INTERNATIONAL INC CLASS A",
+            "weight": "0.0185"
+        },
+        {
+            "symbol": "ABNB",
+            "description": "AIRBNB INC ORDINARY SHARES CLASS A",
+            "weight": "0.0182"
+        },
+        {
+            "symbol": "AZO",
+            "description": "AUTOZONE INC",
+            "weight": "0.0174"
+        },
+        {
+            "symbol": "RCL",
+            "description": "ROYAL CARIBBEAN GROUP",
+            "weight": "0.0167"
+        },
+        {
+            "symbol": "GM",
+            "description": "GENERAL MOTORS CO",
+            "weight": "0.0148"
+        },
+        {
+            "symbol": "ROST",
+            "description": "ROSS STORES INC",
+            "weight": "0.0134"
+        },
+        {
+            "symbol": "YUM",
+            "description": "YUM BRANDS INC",
+            "weight": "0.0131"
+        },
+        {
+            "symbol": "LULU",
+            "description": "LULULEMON ATHLETICA INC",
+            "weight": "0.0116"
+        }
+    ]
+}
