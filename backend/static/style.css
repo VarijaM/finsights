@@ -17,9 +17,11 @@
     align-items: center;
     font-size: 48px;
     font-family: 'Open Sans', sans-serif;
-    color: #000000
+    color: #000080
 }
-
+.top-text p {
+    font-family: 'Open Sans', sans-serif;
+}
 .finsights h1{
     margin-bottom: 0;
     margin-right: 3px;
