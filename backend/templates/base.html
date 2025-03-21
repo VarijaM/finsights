@@ -1,4 +1,4 @@
-<!-- <!doctype html>
+<!doctype html>
 <title>{% block title %}{% endblock %} - Flaskr</title>
 <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -82,64 +82,4 @@
             });
         }
     </script>
-</body> -->
-
-
-<!doctype html>
-<html lang="en">
-<head>
-    <title>{% block title %}{% endblock %} - FinSights</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kanit&family=Montserrat&family=Open+Sans:wght@500&display=swap" rel="stylesheet">
-</head>
-<body>
-
-    <div class="full-body-container">
-        <div class="top-text">
-            <div class="finsights">
-                <h1>FinSights</h1>
-            </div>
-            <p>Your AI-powered ETF & stock investment assistant.</p>
-            <p class="example">Example: "Invest $1000 in a low-risk tech ETF for the long-term."</p>
-
-            <div class="input-box">
-                <img src="{{ url_for('static', filename='images/mag.png') }}" alt="Search">
-                <input placeholder="Enter your risk appetite, investment horizon, sectors, and amount" id="filter-text-val" onkeyup="filterText()">
-            </div>
-        </div>
-
-        <div id="investment-results"></div>
-    </div>
-
-    <script>
-        function sendFocus() {
-            document.getElementById('filter-text-val').focus();
-        }
-
-        function filterText() {
-            document.getElementById("investment-results").innerHTML = "<p>Searching...</p>";
-            fetch("/investments?" + new URLSearchParams({ query: document.getElementById("filter-text-val").value }).toString())
-            .then((response) => response.json())
-            .then((data) => {
-                let resultDiv = document.getElementById("investment-results");
-                resultDiv.innerHTML = "<h3>Recommended Investments</h3>";
-                data.forEach(investment => {
-                    let div = document.createElement("div");
-                    div.classList.add("investment-card");
-                    div.innerHTML = `
-                        <h4>${investment.name}</h4>
-                        <p><strong>Type:</strong> ${investment.type}</p>
-                        <p><strong>Sector:</strong> ${investment.sector}</p>
-                        <p><strong>Amount:</strong> $${investment.amount}</p>
-                        <p><strong>Rationale:</strong> ${investment.reasoning}</p>
-                    `;
-                    resultDiv.appendChild(div);
-                });
-            });
-        }
-    </script>
-
 </body>
-</html>
