@@ -21,7 +21,9 @@
             </div>
             <div class="input-box" onclick="sendFocus()">
                 <img src="{{ url_for('static', filename='images/mag.png') }}" />
-                <input placeholder="Search for a Keeping up with the Kardashians episode" id="filter-text-val" onkeyup="filterText()">
+                <input placeholder="Enter your investment preferences to get ETF and stock recommendations." id="filter-text-val" onkeyup="filterText()">
+                <p>Tell us about your risk appetite, investment horizon, and desired sectors.</p>
+                <p>I want to invest $1000 in a low-risk ETF in the technology sector for the long-term</p>
             </div>
         </div>
 
@@ -29,8 +31,7 @@
 
         <div class="investment-Section">
             <h2>Personalized Investment Recommendations</h2>
-            <p>Enter your investment preferences to get ETF and stock recommendations.</p>
-
+            
             <div class="investment-input">
                 <label for="sectors">Preferred Sectors (comma-separated, e.g., Tech, Healthcare):</label>
                 <input type="text" id="sectors" placeholder="e.g., Technology, Healthcare">
