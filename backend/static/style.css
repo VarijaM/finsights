@@ -12,7 +12,7 @@
     flex-direction: column;
 }
 
-.google-colors{
+.finsights{
     display: flex;
     align-items: center;
     font-size: 48px;
@@ -20,11 +20,14 @@
     color: #000000
 }
 
-.google-colors h1{
+.finsights h1{
     margin-bottom: 0;
     margin-right: 3px;
 }
 
+.example {
+    font-style: italic;
+}
 .input-box{
     border-radius: 50px;
     border:1px solid black;
