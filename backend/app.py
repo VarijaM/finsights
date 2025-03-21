@@ -1,48 +1,73 @@
-import json
 import os
-from flask import Flask, render_template, request
+import json
+from flask import Flask, request, jsonify, render_template
 from flask_cors import CORS
-from helpers.MySQLDatabaseHandler import MySQLDatabaseHandler
-
-import numpy as np
-import pandas as pd
-
-# ROOT_PATH for linking with all your files. 
-# Feel free to use a config.py or settings.py with a global export variable
-os.environ['ROOT_PATH'] = os.path.abspath(os.path.join("..",os.curdir))
-
-# Get the directory of the current script
-current_directory = os.path.dirname(os.path.abspath(__file__))
-
-# Specify the path to the JSON file relative to the current script
-json_file_path = os.path.join(current_directory, 'init.json')
-
-# Assuming your JSON data is stored in a file named 'init.json'
-with open(json_file_path, 'r') as file:
-    data = json.load(file)
-    episodes_df = pd.DataFrame(data['episodes'])
-    reviews_df = pd.DataFrame(data['reviews'])
+from helpers.analysis import (
+    filter_etfs_by_risk,
+    get_sector_recommendations,
+    calculate_etf_allocation,
+    load_etf_data,
+    get_top_stocks,
+    tokenize,
+    jaccard
+)
 
 app = Flask(__name__)
 CORS(app)
 
-# Sample search using json with pandas
-def json_search(query):
-    matches = []
-    merged_df = pd.merge(episodes_df, reviews_df, left_on='id', right_on='id', how='inner')
-    matches = merged_df[merged_df['title'].str.lower().str.contains(query.lower())]
-    matches_filtered = matches[['title', 'descr', 'imdb_rating']]
-    matches_filtered_json = matches_filtered.to_json(orient='records')
-    return matches_filtered_json
+# Load ETF holdings (once at startup)
+etf_holdings = load_etf_data()
 
 @app.route("/")
 def home():
-    return render_template('base.html',title="sample html")
+    """Render the frontend page."""
+    return render_template('index.html')
 
-@app.route("/episodes")
-def episodes_search():
-    text = request.args.get("title")
-    return json_search(text)
+@app.route("/investments", methods=["GET"])
+def get_investment_recommendations():
+    """Handles user input and returns investment recommendations."""
+    
+    # Extract user input
+    sectors = request.args.get("sectors", "").split(",") if request.args.get("sectors") else []
+    risk_appetite = request.args.get("risk_appetite", "Medium")
+    investment_amount = float(request.args.get("amount", 1000))
+    investment_horizon = request.args.get("horizon", "Long-term")
 
-if 'DB_NAME' not in os.environ:
-    app.run(debug=True,host="0.0.0.0",port=5000)
+    # Ensure some default sectors if none are provided
+    if not sectors:
+        sectors = ["Technology", "Healthcare", "Finance"]
+
+    # Step 1: Filter ETFs by risk level
+    etfs = filter_etfs_by_risk(risk_appetite)
+
+    # Step 2: Filter ETFs by sector preferences
+    sector_filtered_etfs = get_sector_recommendations(etfs, sectors)
+
+    # Step 3: Allocate investment
+    investment_breakdown = calculate_etf_allocation(investment_amount, sector_filtered_etfs)
+
+    # Step 4: Format the response for the frontend
+    investments = []
+    for etf, details in investment_breakdown.items():
+        investments.append({
+            "name": etf,
+            "type": "ETF",
+            "sector": ", ".join(sectors),
+            "amount": details["investment"],
+            "reasoning": f"{etf} is a well-diversified ETF that aligns with your sector preference."
+        })
+
+    return jsonify(investments)
+
+@app.route("/top-stocks", methods=["GET"])
+def get_top_etf_stocks():
+    """Returns the top stocks weighted in ETFs."""
+    num_stocks = int(request.args.get("num", 5))  # Default to top 5 stocks
+    top_stocks = get_top_stocks(etf_holdings, num_stocks)
+
+    return jsonify([
+        {"symbol": stock, "weight": f"{weight:.2f}%"} for stock, weight in top_stocks
+    ])
+
+if __name__ == "__main__":
+    app.run(debug=True, host="0.0.0.0", port=5000)
