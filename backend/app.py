@@ -1,64 +1,48 @@
-import os
 import json
-from flask import Flask, request, jsonify
+import os
+from flask import Flask, render_template, request
 from flask_cors import CORS
-from helpers.analysis import get_top_etf_matches, extract_etf_text
+from helpers.MySQLDatabaseHandler import MySQLDatabaseHandler
+
+import numpy as np
+import pandas as pd
+
+# ROOT_PATH for linking with all your files. 
+# Feel free to use a config.py or settings.py with a global export variable
+os.environ['ROOT_PATH'] = os.path.abspath(os.path.join("..",os.curdir))
+
+# Get the directory of the current script
+current_directory = os.path.dirname(os.path.abspath(__file__))
+
+# Specify the path to the JSON file relative to the current script
+json_file_path = os.path.join(current_directory, 'init.json')
+
+# Assuming your JSON data is stored in a file named 'init.json'
+with open(json_file_path, 'r') as file:
+    data = json.load(file)
+    episodes_df = pd.DataFrame(data['episodes'])
+    reviews_df = pd.DataFrame(data['reviews'])
 
 app = Flask(__name__)
 CORS(app)
 
-# Load all ETF JSON files from the 'etfs' folder.
-etf_directory = os.path.join(os.path.dirname(__file__), "etfs")
-etf_files = [f for f in os.listdir(etf_directory) if f.endswith(".json")]
-
-etf_list = []
-for etf_file in etf_files:
-    file_path = os.path.join(etf_directory, etf_file)
-    with open(file_path, "r") as file:
-        data = json.load(file)
-        # Handle both single ETF objects or lists of ETFs.
-        if isinstance(data, list):
-            for etf in data:
-                if 'name' not in etf:
-                    etf['name'] = etf_file.split('.')[0]
-                etf_list.append(etf)
-        else:
-            if 'name' not in data:
-                data['name'] = etf_file.split('.')[0]
-            etf_list.append(data)
+# Sample search using json with pandas
+def json_search(query):
+    matches = []
+    merged_df = pd.merge(episodes_df, reviews_df, left_on='id', right_on='id', how='inner')
+    matches = merged_df[merged_df['title'].str.lower().str.contains(query.lower())]
+    matches_filtered = matches[['title', 'descr', 'imdb_rating']]
+    matches_filtered_json = matches_filtered.to_json(orient='records')
+    return matches_filtered_json
 
 @app.route("/")
 def home():
-    return "FinSights Stock Recommendation API"
+    return render_template('base.html',title="sample html")
 
-@app.route("/stocks", methods=["GET"])
-def stock_search():
-    user_query = request.args.get("query", "")
-    if not user_query:
-        return jsonify({"error": "No query provided"}), 400
+@app.route("/episodes")
+def episodes_search():
+    text = request.args.get("title")
+    return json_search(text)
 
-    # Debug print to verify query and number of ETFs loaded.
-    print(f"Received query: {user_query}")
-    print(f"Number of ETFs loaded: {len(etf_list)}")
-
-    # Get the top ETF matches based on the query.
-    top_matches = get_top_etf_matches(user_query, etf_list, top_n=5)
-
-    # Format the response to include ETF name, a snippet of its combined description, and the score.
-    results = []
-    for etf, score in top_matches:
-        full_text = extract_etf_text(etf)
-        result = {
-            "name": etf.get("name", "Unknown"),
-            "description": full_text[:250] + "..." if len(full_text) > 250 else full_text,
-            "similarity_score": score
-        }
-        results.append(result)
-    
-    # Debug: print results to console.
-    print("Top matches:", results)
-    
-    return jsonify(results)
-
-if __name__ == "__main__":
-    app.run(debug=True, host="0.0.0.0", port=5000)
+if 'DB_NAME' not in os.environ:
+    app.run(debug=True,host="0.0.0.0",port=5000)
